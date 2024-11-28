@@ -1,0 +1,413 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.9.1">
+  <diagram name="Page-1" id="YjKVMhoULXawHLazjAnC">
+    <mxGraphModel dx="4792" dy="3207" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zah0DvyjTj_PatihBUiB-3" value="مدیر" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="1532" y="-250" width="41" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-4" value="کاربر" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-246" y="55.5" width="41" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-5" value="مسئول" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="1532" y="509" width="41" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-8" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Vazirmatn&quot;&gt;کانتینر ۱ : مدیریت درخواست‌ها&lt;br&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;glass=0;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="412" y="-295" width="570" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-32" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-21" target="zah0DvyjTj_PatihBUiB-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="972" y="-135" as="sourcePoint" />
+            <mxPoint x="1112" y="-155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-34" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-23" target="zah0DvyjTj_PatihBUiB-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="942" y="14.410000000000025" as="sourcePoint" />
+            <mxPoint x="1082" y="14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-35" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-18" target="zah0DvyjTj_PatihBUiB-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="912" y="65" as="sourcePoint" />
+            <mxPoint x="1072" y="65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-36" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-4" target="zah0DvyjTj_PatihBUiB-10" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="272" y="75" as="sourcePoint" />
+            <mxPoint x="442" y="-195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-37" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-4" target="zah0DvyjTj_PatihBUiB-15" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="272" y="85" as="sourcePoint" />
+            <mxPoint x="442" y="-115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-41" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="zah0DvyjTj_PatihBUiB-30" target="zah0DvyjTj_PatihBUiB-5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="922" y="325" as="sourcePoint" />
+            <mxPoint x="1062" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-40" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-4" target="zah0DvyjTj_PatihBUiB-13" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="372" y="155" as="sourcePoint" />
+            <mxPoint x="532" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-43" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-25" target="zah0DvyjTj_PatihBUiB-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="972" y="-245" as="sourcePoint" />
+            <mxPoint x="1132" y="-245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-44" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-19" target="zah0DvyjTj_PatihBUiB-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="962" y="95" as="sourcePoint" />
+            <mxPoint x="1052" y="35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-46" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-26" target="zah0DvyjTj_PatihBUiB-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="972" y="-215" as="sourcePoint" />
+            <mxPoint x="1082" y="15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-42" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-31" target="zah0DvyjTj_PatihBUiB-5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="922" y="255" as="sourcePoint" />
+            <mxPoint x="1042" y="255.25714285714275" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-45" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-20" target="zah0DvyjTj_PatihBUiB-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="972" y="-15" as="sourcePoint" />
+            <mxPoint x="1102" y="-15" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-47" value="" style="edgeStyle=none;html=1;endArrow=none;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-22" target="zah0DvyjTj_PatihBUiB-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="969" y="190" as="sourcePoint" />
+            <mxPoint x="1222" y="75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1052" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-49" value="&lt;b&gt;سامانه مدیریت درخواست‌های واحد فناوری اطلاعات سازمان&lt;br&gt;&lt;/b&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;swimlaneFillColor=none;fontColor=#ffffff;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0;fontSize=9;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="-113" y="-720" width="1580" height="1424" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-30" value="&#xa;ثبت وضعیت و زمان پیشرفت درخواست&#xa;&#xa;" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=0;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="558.5" y="940" width="133" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-31" value="&lt;br&gt;قبول یا رد درخواست‌های محول‌شده&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=0;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="558.5" y="868" width="133" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-53" value="کانتینر ۲: مدیریت کاربران و مسئولان" style="swimlane;whiteSpace=wrap;html=1;startSize=30;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="1160" y="40" width="400" height="312" as="geometry">
+            <mxRectangle x="1160" y="40" width="71" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-57" value="&lt;br&gt;مشاهده لیست تمامی مسئول‌ها&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-53" vertex="1">
+          <mxGeometry x="233" y="27" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-56" value="&lt;br&gt;جستجوی مسئول‌ها با معیارهای جستجو&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-53" vertex="1">
+          <mxGeometry x="233" y="97" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-55" value="&#xa;تعیین مدیر یا مسئول جدید&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-53" vertex="1">
+          <mxGeometry x="233" y="167" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-54" value="&lt;br&gt;ارسال پیام و نظرسنجی به کاربران و مسئولان&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-53" vertex="1">
+          <mxGeometry x="233" y="239" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-64" value="کانتینر ۳: مدیریت زمینه‌ها و وضعیت‌ها" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="1340" y="789.9999999999998" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-66" value="&lt;br&gt;معرفی وضعیت‌های تکمیلی برای درخواست‌ها&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-64" vertex="1">
+          <mxGeometry x="41" y="39.00000000000023" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-65" value="&lt;br&gt;معرفی زمینه‌های جدید برای درخواست‌ها&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-64" vertex="1">
+          <mxGeometry x="41" y="116.00000000000023" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-68" value="کانتینر ۴: گزارش ها" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;startSize=20;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="25" y="40" width="227" height="526" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-71" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Vazirmatn&quot;&gt;&lt;br&gt;ذخیره گزارش زمانی یک درخواست خاص&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="zah0DvyjTj_PatihBUiB-68" vertex="1">
+          <mxGeometry x="100" y="52" width="115" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-70" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Vazirmatn&quot;&gt;&lt;br&gt;ذخیره گزارش تجمیعی زمانی یا کیفی برای گروهی از درخواست‌ها&lt;/font&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Vazirmatn&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="zah0DvyjTj_PatihBUiB-68" vertex="1">
+          <mxGeometry x="100" y="131.5" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-69" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Vazirmatn&quot;&gt;&lt;br&gt;اطلاع رسانی تغییرات به کاربران/مدیران/مسئولان مرتبط&lt;/font&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Vazirmatn&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="zah0DvyjTj_PatihBUiB-68" vertex="1">
+          <mxGeometry y="26" width="96" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-82" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Vazirmatn&quot;&gt;&lt;br&gt;مشاهده گزارش‌های تجمیعی زمانی&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-68" vertex="1">
+          <mxGeometry x="38" y="235" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-83" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Vazirmatn&quot;&gt;&lt;br&gt;مشاهده گزارش‌های تجمیعی کیفی&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-68" vertex="1">
+          <mxGeometry x="34" y="443" width="169" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LRsmdhUPzwPSaNVuB1P2-25" value="مشاهده گزارش های زمانی خاص" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" vertex="1" parent="zah0DvyjTj_PatihBUiB-68">
+          <mxGeometry x="38" y="347" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LRsmdhUPzwPSaNVuB1P2-27" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="zah0DvyjTj_PatihBUiB-68" source="LRsmdhUPzwPSaNVuB1P2-25" target="zah0DvyjTj_PatihBUiB-82">
+          <mxGeometry x="-0.2381" y="-33" width="160" relative="1" as="geometry">
+            <mxPoint x="156" y="294" as="sourcePoint" />
+            <mxPoint x="316" y="294" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-87" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Vazirmatn&quot;&gt;&lt;br&gt;کانتینر ۵: فرآیندهای ورود و خروج&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;startSize=35;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="22" y="1059" width="176" height="247" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-90" value="ورود به سیستم" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-87" vertex="1">
+          <mxGeometry x="11" y="63" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-89" value="خروج از سیستم" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-87" vertex="1">
+          <mxGeometry x="9" y="139" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-10" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Vazirmatn&quot;&gt;ثبت درخواست&lt;/font&gt;" style="ellipse;html=1;labelBackgroundColor=none;fontSize=16;fontStyle=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="537" y="460" width="176" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-15" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Vazirmatn&quot;&gt;مشاهده لیست درخواست‌های خود&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="532" y="616" width="176" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-13" value="&#xa;امتیاز و نظر دادن بر عملکرد یک درخواست&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0;fontSize=13;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="545" y="705.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-14" value="&lt;font style=&quot;font-size: 10px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Vazirmatn&quot;&gt;ارسال پیام به مسئول زیر یک درخواست&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=0;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="831" y="456" width="94" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="zah0DvyjTj_PatihBUiB-49" source="zah0DvyjTj_PatihBUiB-24" target="zah0DvyjTj_PatihBUiB-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-25" value="&lt;br&gt;جستجوی درخواست‌ها با معیارهای جستجو&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=0;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="967" y="519.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-26" value="&lt;br&gt;مشاهده لیست تمامی درخواست‌ها&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=0;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="968" y="458.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-21" value="&lt;br&gt;مشاهده اطلاعات یک درخواست&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=0;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="967" y="581.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-24" value="&lt;br&gt;تغییر اطلاعات درخواست&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=0;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="963" y="645.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-20" value="&#xa;مشاهده نظر و امتیاز ثبت شده روی درخواست&#xa;&#xa;" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=0;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="967" y="705.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-23" value="&#xa;حذف یک درخواست&#xa;&#xa;" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=0;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="963" y="767.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-18" value="&lt;br&gt;انتخاب مسئول برای درخواست&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=0;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="963" y="827.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-19" value="&lt;br&gt;گروه‌بندی چند درخواست&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=0;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="967" y="887.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-22" value="&lt;br&gt;مشاهده اطلاعات یک درخواست&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=0;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;" parent="zah0DvyjTj_PatihBUiB-49" vertex="1">
+          <mxGeometry x="963" y="947.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LRsmdhUPzwPSaNVuB1P2-18" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Vazirmatin&quot;&gt;تعیین زمینه یک درخواست&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Vazirmatn ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn%2B;fillColor=#E1D5E7;strokeColor=#9673A6;" vertex="1" parent="zah0DvyjTj_PatihBUiB-49">
+          <mxGeometry x="647" y="542.0000000000002" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LRsmdhUPzwPSaNVuB1P2-17" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="zah0DvyjTj_PatihBUiB-49" source="zah0DvyjTj_PatihBUiB-10" target="LRsmdhUPzwPSaNVuB1P2-18">
+          <mxGeometry x="0.3262" width="160" relative="1" as="geometry">
+            <mxPoint x="738" y="574" as="sourcePoint" />
+            <mxPoint x="898" y="574" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="804" y="498" />
+              <mxPoint x="804" y="577" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRsmdhUPzwPSaNVuB1P2-28" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="zah0DvyjTj_PatihBUiB-49" source="zah0DvyjTj_PatihBUiB-14" target="zah0DvyjTj_PatihBUiB-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="762" y="414" as="sourcePoint" />
+            <mxPoint x="922" y="414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRsmdhUPzwPSaNVuB1P2-32" value="&lt;h1 dir=&quot;auto&quot; class=&quot;heading-element&quot; tabindex=&quot;-1&quot;&gt;&lt;font color=&quot;#7ea6e0&quot; style=&quot;font-size: 65px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Vazirmatn+&quot; face=&quot;Vazirmatn&quot;&gt;Penguin Team&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="zah0DvyjTj_PatihBUiB-49">
+          <mxGeometry x="286" y="1258" width="452" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-59" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-55" target="zah0DvyjTj_PatihBUiB-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1422" y="-535" as="sourcePoint" />
+            <mxPoint x="1472" y="-575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-60" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-54" target="zah0DvyjTj_PatihBUiB-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1412" y="-475" as="sourcePoint" />
+            <mxPoint x="1462" y="-525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-62" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-56" target="zah0DvyjTj_PatihBUiB-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1442" y="-635" as="sourcePoint" />
+            <mxPoint x="1492" y="-685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-61" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-57" target="zah0DvyjTj_PatihBUiB-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1422" y="-575" as="sourcePoint" />
+            <mxPoint x="1472" y="-625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-58" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-3" target="zah0DvyjTj_PatihBUiB-66" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="772" y="-405" as="sourcePoint" />
+            <mxPoint x="822" y="-455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-67" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-65" target="zah0DvyjTj_PatihBUiB-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1432" y="-265" as="sourcePoint" />
+            <mxPoint x="1482" y="-315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-72" value="سامانه" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#1ba1e2;fontColor=#320b0b;strokeColor=#006EAF;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="-246" y="-663" width="41" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-75" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-72" target="zah0DvyjTj_PatihBUiB-69" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="302" y="-515" as="sourcePoint" />
+            <mxPoint x="352" y="-565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-74" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-72" target="zah0DvyjTj_PatihBUiB-70" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="242" y="-485" as="sourcePoint" />
+            <mxPoint x="292" y="-535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-73" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-72" target="zah0DvyjTj_PatihBUiB-71" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="172" y="-545" as="sourcePoint" />
+            <mxPoint x="222" y="-595" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-39" y="-560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-84" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-4" target="zah0DvyjTj_PatihBUiB-83" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-230" y="-325.9999999999998" as="sourcePoint" />
+            <mxPoint x="-183" y="-379" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-90" y="-167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-85" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-4" target="zah0DvyjTj_PatihBUiB-82" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-230" y="-325.9999999999998" as="sourcePoint" />
+            <mxPoint x="-28" y="-290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-120" y="-227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-92" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-4" target="zah0DvyjTj_PatihBUiB-90" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-122" y="481" as="sourcePoint" />
+            <mxPoint x="-72" y="431" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-141" y="387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zah0DvyjTj_PatihBUiB-91" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-4" target="zah0DvyjTj_PatihBUiB-89" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-231" y="256" as="sourcePoint" />
+            <mxPoint x="-62.57999999999993" y="506.84000000000015" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-166" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="02EB5d_pMIKcfFyfMRqk-3" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Vazirmatn;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DVazirmatn;fontStyle=0" parent="1" source="zah0DvyjTj_PatihBUiB-24" target="zah0DvyjTj_PatihBUiB-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1155" y="17" as="sourcePoint" />
+            <mxPoint x="1205" y="-33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRsmdhUPzwPSaNVuB1P2-3" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zah0DvyjTj_PatihBUiB-22" target="zah0DvyjTj_PatihBUiB-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150" y="75" as="sourcePoint" />
+            <mxPoint x="1200" y="25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRsmdhUPzwPSaNVuB1P2-5" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zah0DvyjTj_PatihBUiB-30" target="zah0DvyjTj_PatihBUiB-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1042" y="34" as="sourcePoint" />
+            <mxPoint x="1092" y="-16" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="-392" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRsmdhUPzwPSaNVuB1P2-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zah0DvyjTj_PatihBUiB-82" target="zah0DvyjTj_PatihBUiB-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314" y="20" as="sourcePoint" />
+            <mxPoint x="203" y="636" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="261" y="64" />
+              <mxPoint x="385" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRsmdhUPzwPSaNVuB1P2-14" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zah0DvyjTj_PatihBUiB-82" target="zah0DvyjTj_PatihBUiB-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314" y="20" as="sourcePoint" />
+            <mxPoint x="795" y="-424" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="801" y="-508" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRsmdhUPzwPSaNVuB1P2-15" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zah0DvyjTj_PatihBUiB-83" target="zah0DvyjTj_PatihBUiB-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="888" y="74" as="sourcePoint" />
+            <mxPoint x="938" y="24" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="361" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRsmdhUPzwPSaNVuB1P2-16" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zah0DvyjTj_PatihBUiB-83" target="zah0DvyjTj_PatihBUiB-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="888" y="74" as="sourcePoint" />
+            <mxPoint x="938" y="24" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="805" y="-580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRsmdhUPzwPSaNVuB1P2-29" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zah0DvyjTj_PatihBUiB-14" target="zah0DvyjTj_PatihBUiB-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="803" y="-66" as="sourcePoint" />
+            <mxPoint x="759" y="404" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="663" y="416" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LRsmdhUPzwPSaNVuB1P2-30" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zah0DvyjTj_PatihBUiB-14" target="zah0DvyjTj_PatihBUiB-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="673" y="-310" as="sourcePoint" />
+            <mxPoint x="723" y="-360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="878" y="-435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
