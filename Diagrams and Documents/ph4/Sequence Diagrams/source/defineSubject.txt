@@ -1,0 +1,16 @@
+title Search user
+
+participant manager
+participant systemManager
+participant DataHandler
+
+
+manager->systemManager:searchUsers)
+activate manager
+activate systemManager
+alt inearched
+
+DataHandler->manager:loadData()
+else not inSearched
+systemManager->manager:failed
+end

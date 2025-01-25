@@ -1,0 +1,60 @@
+title view temporal report
+participant Employee
+participant systemManager
+participant DataHandler
+participant Manager
+
+activate Employee
+ref over Employee:sendrequest()\n
+Employee->systemManager: updateRequest()
+deactivate Employee
+activate systemManager
+
+systemManager->DataHandler:saveData()
+activate DataHandler
+deactivate DataHandler
+deactivate systemManager
+
+opt speceficTime
+alt  MnagerRequests
+Manager->systemManager:history
+else UserRequests
+else EmployeeRequests
+end
+end
+
+alt ManagerRequests
+alt SingleRequest
+Manager->systemManager:viewSingleTemporalReport()
+activate Manager
+else AggregateReport
+ref over Manager :SearchInRequests()
+Manager->systemManager:viewAggregateTemporalReport()
+
+deactivate Manager
+end
+else userRequests
+activate User
+ref over User:viewRequest()
+User->systemManager:viewSingleTemporalReport()
+
+deactivate User
+else EmployeeRequests
+activate Employee
+ref over Employee:viewRequest()\n
+Employee->systemManager:viewSingleTemporalReport()
+
+deactivate Employee
+end
+activate Manager
+activate systemManager
+DataHandler->systemManager:loadData()
+activate DataHandler
+deactivate DataHandler
+alt AggregateReport
+systemManager->systemManager:getTemporaleReport()
+else SingleReport
+systemManager->systemManager:getsingleTemporalReport()
+end
+systemManager->Manager:showdata()
+deactivate systemManager

@@ -1,0 +1,16 @@
+title send survey
+
+participant Manager
+participant Survey
+
+activate Manager
+activate user
+ref over Manager:search User
+Manager->Survey:createSurvey()
+deactivate Manager
+activate Survey
+opt userName == reciever
+user->Survey:answerSurvay()
+deactivate Survey
+deactivate user
+end

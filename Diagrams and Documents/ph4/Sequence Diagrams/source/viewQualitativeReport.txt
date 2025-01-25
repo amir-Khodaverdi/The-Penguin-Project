@@ -1,0 +1,27 @@
+title view Qualitative\nAggregate report
+participant user
+participant systemManager
+participant DataHandler
+participant Manager
+
+activate user
+ref over user: login()\n
+user->systemManager getQualitatveAggregateReport()
+
+user->systemManager:RateResponse()
+activate systemManager
+systemManager->Datahandler:saveData()
+activate Datahandler
+deactivate Datahandler
+deactivate systemManager
+
+Manager->systemManager:searchinRequests()
+activate Manager
+activate systemManager
+systemManager->Manager:getRequest()
+Manager->systemManager:viewQualitativeAggregateReport()
+activate Datahandler
+Datahandler->systemManager:loadData
+systemManager->systemManager:getQualitativeAggrigateReport()
+systemManager->Manager:showdata
+deactivate systemManager

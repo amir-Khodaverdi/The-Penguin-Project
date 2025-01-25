@@ -1,0 +1,19 @@
+title Set new Admin
+
+participant manager
+participant SystemManager
+participant User
+
+
+
+activate manager
+activate SystemManager
+ref over manager,SystemManager:view all users
+ref over manager,SystemManager:search users
+
+opt userName == name
+SystemManager->User:changeRole()
+deactivate SystemManager
+activate User
+deactivate User
+end

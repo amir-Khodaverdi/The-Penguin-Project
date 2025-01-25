@@ -1,0 +1,15 @@
+title login
+participant user
+participant systemManager
+
+user->systemManager :login()
+activate user
+activate systemManager
+systemManager->systemManager :authentication
+
+alt isAuthenticated
+systemManager->user:success
+else not isAuthenticated
+systemManager->user:failed 
+deactivate systemManager
+end

@@ -1,0 +1,16 @@
+title define Status
+
+participant Manager
+participant SystemManager
+participant Request
+participant DataHandler
+
+ref over Req
+Manager->SystemManager:defineNewRequestStatus()
+SystemManager->DataHandler:saveData()
+
+opt status is in StatusList
+Request->SystemManager:addRequest()
+end
+
+SystemManager->DataHandler:saveData()

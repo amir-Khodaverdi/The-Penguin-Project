@@ -1,0 +1,23 @@
+title define Status
+
+participant Manager
+participant SystemManager
+participant Request
+participant DataHandler
+
+Manager->SystemManager:defineNewRequestStatus()
+activate Manager
+deactivate Manager
+activate SystemManager
+SystemManager->DataHandler:saveData()
+
+
+activate DataHandler
+deactivate DataHandler
+SystemManager->Request:addRequest()
+
+
+
+deactivate SystemManager
+activate Request
+deactivate Request

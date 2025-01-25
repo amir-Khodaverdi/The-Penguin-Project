@@ -1,0 +1,18 @@
+title view all users
+
+participant manager
+participant SystemManager
+participant DataHandler
+
+
+manager->SystemManager:usersLists
+activate manager
+activate SystemManager
+opt role == employee
+
+SystemManager->DataHandler:loadUser
+deactivate SystemManager
+activate DataHandler
+DataHandler->manager:loadData
+deactivate DataHandler
+end

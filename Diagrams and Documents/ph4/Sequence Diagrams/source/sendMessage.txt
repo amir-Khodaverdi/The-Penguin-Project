@@ -1,0 +1,22 @@
+title send message
+
+participant manager
+participant managerAnnouncer
+participant Message
+participant Users
+
+activate manager
+activate Users
+ref over manager: search User
+manager->managerAnnouncer:sendAnnouncement()
+deactivate manager
+activate managerAnnouncer
+managerAnnouncer-> Message:Message
+
+deactivate managerAnnouncer
+activate Message
+opt userName == reciever
+Users->Message:Messages
+deactivate Message
+deactivate Users
+end
