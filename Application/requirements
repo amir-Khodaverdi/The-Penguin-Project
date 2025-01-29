@@ -1,0 +1,18 @@
+Requirements for running the app:
+1- python tkinter
+2- python customtkinter
+3- python CTkListbox
+4- python tkcalendar
+5- python CTkMessagebox
+6- python pathlib
+7- python pickle
+8- python bcrypt
+
+
+how to run:
+1- Comment app loop in controller file.
+2- Uncomment add manager part to add a first user.
+3- Comment add manager part.
+4- Uncomment app loop.
+5- use aaa for password and username for the first user to login as a manager.
+
