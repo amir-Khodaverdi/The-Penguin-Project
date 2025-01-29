@@ -1,6 +1,2 @@
 # The-Penguin-Project
-Please make changes only in **new branches**, not the main branch.
-**main branch** is the final version of the project and will be changed right before the deadline of each phase.
-Try to use proper commit descriptions for your changes.   
-
-**DO NOT MAKE ANY CHANGES TO PROGRAM SOURCE CODE**
+This project is for system analysis and design course of CE department of University of Guilan. The project resembles of a sending and responding to request within an organization. All usecase, class, sequnce and activity diagrams are added in detail. The app of project is written in python based on the MVC architecture. the blue print of the app is the class diagram and the purpose was to cover all usercases.
